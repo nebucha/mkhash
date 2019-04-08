@@ -1,18 +1,22 @@
 # Description
 
 mkhash command generate a hash of specified field string, and insert after the field.
+
 In direct mode, it doesn't keep the original string.
+
 If the target filename is ommited, standard input will be used.
 
-Supported hash type: md5 sha1 sha224 sha256 sha384 sha512
+Supported hash type: md5, sha1, sha224, sha256, sha384, sha512
 
 # Usage
 
+```
 mkhash [-d] type field [file]
     type    hash type
     field   target field number
     file    target filename
     -d      direct mode
+```
 
 # Examples
 
